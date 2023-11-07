@@ -32,4 +32,4 @@ jobs:
         
     - name: build
       run: |
-        docker builtx built -t chetaxiaoxiao/base:latest . --push
+        docker builtx built -t ${{ secrets.DOCKER_USERNAME }}/base:latest . --push
