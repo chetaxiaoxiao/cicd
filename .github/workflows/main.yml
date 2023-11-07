@@ -32,4 +32,4 @@ jobs:
         
     - name: build
       run: |
-        docker builtx built --tag ${{ secrets.DOCKER_USERNAME }}/base:latest --file Dockerfile . --push
+        docker builtx built --tag chetaxiaoxiao/base:latest --file Dockerfile . --push
